@@ -1,11 +1,12 @@
 import java.util.*;
 
+// vscode ë°ë¸Œë¥¼ ì‚¬ìš©í•˜ì—¬ í‘¸ì‰¬
 public class Knight {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // ÇöÀç ³ªÀÌÆ®ÀÇ À§Ä¡ ÀÔ·Â¹Ş±â
+        // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½ï¿½Ä¡ ï¿½Ô·Â¹Ş±ï¿½
         String inputData = sc.nextLine();
         int row = inputData.charAt(1) - '0';
         int column = inputData.charAt(0) - 'a' + 1;
